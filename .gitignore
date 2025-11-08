@@ -1,0 +1,91 @@
+# Arduino
+*.hex
+*.eep
+*.elf
+*.map
+*.sym
+*.lss
+*.lst
+
+# Build directories
+build/
+*.build/
+
+# Arduino IDE
+*.ino.cpp
+*.ino.globals.h
+*.ino.with_bootloader.hex
+*.ino.with_bootloader.bin
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Logs
+*.log
+
+# Compiled Object files
+*.o
+*.obj
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Python (if any scripts)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+
+# Node (if any tools)
+node_modules/
+npm-debug.log*
+
+# Editor backups
+*~
+\#*\#
+.#*
+
+# Test files
+test/
+tests/
+*.test
+
+# Documentation build artifacts
+docs/_build/
+docs/.doctrees/
+
+# Project specific
+# Add any project-specific ignores here
